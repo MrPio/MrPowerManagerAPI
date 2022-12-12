@@ -1,0 +1,1 @@
+{"id":"faef8a74-55eb-4a5c-8941-8c069e2a2a39","space":43001,"runtime":"python3.9","name":"MrPowerManagerAPI","path":"gu13yx","project":"a0fxlq0a","account":"144798365827","region":"eu-central-1","deps":["uvicorn~=0.19.0","fastapi~=0.87.0","websockets~=10.3"],"envs":null,"public":true,"log_level":"debug","cron":""}
