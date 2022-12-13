@@ -23,9 +23,9 @@ def on_close(ws):
 def on_open(ws):
     def send_all():
         while True:
-            ws.send(b"Hello world!",websocket.ABNF.OPCODE_BINARY)
+            ws.send(b"Hello world2222!",websocket.ABNF.OPCODE_BINARY)
             time.sleep(2)
-    Thread(target=send_all).start()
+    # Thread(target=send_all).start()
 
 
 if __name__ == "__main__":
